@@ -43,7 +43,7 @@ export default createRouter({
       name: 'cart',
       component: () => import('./pages/cart.vue'),
     },
-    /* {
+    {
       path: '/order',
       name: 'order',
       component: () => import('./pages/order.vue'),
@@ -69,6 +69,6 @@ export default createRouter({
           component: () => import('./pages/alipay.vue'),
         },
       ],
-    }, */
+    },
   ],
 })
